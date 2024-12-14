@@ -1,7 +1,7 @@
 package gomodules
 
-func SayHello() string {
-	return "Hello from gomodules"
+func SayHello(name string) string {
+	return "Hello from gomodules " + name
 }
 
 func SayHello2() string {
